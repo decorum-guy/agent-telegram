@@ -1,0 +1,6 @@
+interface:
+  display_name: "Agent Telegram"
+  short_description: "Отчёты и правки через одного Telegram-бота"
+  default_prompt: "Подключи этот проект к Telegram через одного бота и настрой отчёты и приём правок."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,20 @@
+{
+  "name": "agent-telegram",
+  "version": "0.1.2",
+  "description": "Отчёты кодового агента и правки владельца через одного Telegram-бота. Сначала локальный Codex, Node.js 20+.",
+  "author": {
+    "name": "decorum-guy"
+  },
+  "repository": "https://github.com/decorum-guy/agent-telegram",
+  "skills": "./skills/",
+  "onboardingSkill": "./skills/agent-telegram/SKILL.md",
+  "interface": {
+    "displayName": "Agent Telegram",
+    "shortDescription": "Отчёты и правки в Telegram",
+    "longDescription": "Подключите один Telegram-бот ко всем своим проектам: личный чат при работе над одним проектом или одна группа с темами для параллельной работы. Агент настраивает связь, отправляет отчёты и читает правки. Требуются локальный Codex, Node.js 20+ и доступ к Telegram Bot API.",
+    "developerName": "decorum-guy",
+    "category": "Developer Tools",
+    "capabilities": [],
+    "defaultPrompt": "Подключи проект к Telegram: выясни, работаю ли я параллельно, настрой одного бота для отчётов и правок."
+  }
+}

@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+.secrets/
+*.env
+
+# Local project and Telegram bindings are never part of this plugin repository.
+.agent-telegram.json
+*.log
+plugins/.agent-telegram-build-*
+plugins/.agent-telegram-old-*

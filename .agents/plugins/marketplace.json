@@ -1,0 +1,20 @@
+{
+  "name": "agent-telegram",
+  "interface": {
+    "displayName": "Agent Telegram"
+  },
+  "plugins": [
+    {
+      "name": "agent-telegram",
+      "source": {
+        "source": "local",
+        "path": "./plugins/agent-telegram"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
